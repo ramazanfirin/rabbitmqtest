@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: ramazan
+Build-Jdk: 11.0.7
+Implementation-Title: SpringBootRabbitMQHelloWorld
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.javainuse
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBootRabb
+ itMQHelloWorld/
+Created-By: Maven Integration for Eclipse
+

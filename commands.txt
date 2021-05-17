@@ -1,0 +1,7 @@
+http://localhost:8080/javainuse-rabbitmq/producer?empName=ramazan&empId=4
+http://localhost:8080/javainuse-rabbitmq-fanout/producer?empName=ramazan&empId=4
+python rabbitmqadmin -H localhost -u guest -p guest list vhosts
+python rabbitmqadmin list queues
+python rabbitmqadmin publish exchange=javainuse.fanoutexchange routing_key="" payload="hello, world"
+python rabbitmqadmin get queue=javainuse.fanoutqueue.longlive ackmode=ack_requeue_false
+python rabbitmqadmin get queue=javainuse.fanoutqueue.longlive ackmode=ack_requeue_true count=10
